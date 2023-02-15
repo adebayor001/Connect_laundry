@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet" />
+    <title>Connect Laundry</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <div class="h-screen w-full box pt-10">
+      <h1
+        class="text-center lg:text-6xl text-2xl text-white tracking-widest font-inter font-extrabold">
+        CONNECT LAUNDRY
+      </h1>
+      <marquee direction="up" scrollamount="10" height="200"
+        class="text-center lg:text-5xl text-1xl tracking-widest pt-8 lg:pt-10 font-extrabold text-[#861299]">
+        COMING <span class="text-[#732626]">SOON.</span>
+      </marquee>
+      
+      <div
+        class="uppercase text-white tracking-widest flex lg:flex-row flex-col gap-6 w-full justify-around lg:fixed bottom-10 items-center mt-32 lg:mt-0 text-center">
+        <div>
+          <h3 class="text-xl font-bold">Set to launch</h3>
+          <p class="text-base">24/08/2023</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">contacts</h3>
+          <p class="text-base"> 08105965059</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">follow us</h3>
+          <a class="text-base href="//" class="underline">facebook</a><br />
+          <a class="text-base href="//" class="underline">instagram</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
